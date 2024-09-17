@@ -1,0 +1,19 @@
+[gd_scene load_steps=3 format=3 uid="uid://82wp3a6b3011"]
+
+[ext_resource type="Texture2D" uid="uid://dpwy54qs71rc5" path="res://assests/fb42762eef261b90602e684e9269657fa75146f5.png" id="1_iivjs"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_dc818"]
+size = Vector2(52.7059, 61.3595)
+
+[node name="CharacterBody2D" type="CharacterBody2D"]
+
+[node name="Fb42762Eef261b90602e684e9269657Fa75146f5" type="Sprite2D" parent="."]
+position = Vector2(19, 6)
+scale = Vector2(1.0625, 0.994141)
+texture = ExtResource("1_iivjs")
+hframes = 3
+vframes = 4
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Fb42762Eef261b90602e684e9269657Fa75146f5"]
+position = Vector2(-1.88235, 11.0648)
+shape = SubResource("RectangleShape2D_dc818")
